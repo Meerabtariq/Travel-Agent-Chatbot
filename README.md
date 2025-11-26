@@ -16,9 +16,9 @@ Ask about cities, countries, hotels, or tourist attractions and get instant AI-p
 ## 📁 Project Structure
 
 travel-chatbot/
-├── main.py # Main Streamlit app
-├── requirements.txt # Required Python packages
-├── .gitignore # Files to ignore (includes .env)
+├── main.py 
+├── requirements.txt 
+├── .gitignore
 ├── README.md 
 └── .env # Your Gemini API key 
 
@@ -31,15 +31,17 @@ pip install -r requirements.txt
 ---
 
 ## 🗝️Create .env file
+```bash
 GEMINI_API_KEY=your_actual_api_key_here
-
+```
 Replace your_actual_api_key_here with your real Gemini API key.
 
 ---
 
 ## ⚡Run the Streamlit app
+```bash
 streamlit run main.py
-
+```
 ---
 
 ## 🔧 Usage
@@ -50,4 +52,4 @@ streamlit run main.py
 ---
 
 ## 🔒 Security Notes
-Keep your .env file private
+**Keep your .env file private**
