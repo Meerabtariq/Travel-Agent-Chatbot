@@ -40,7 +40,7 @@ Replace your_actual_api_key_here with your real Gemini API key.
 
 ## ⚡Run the Streamlit app
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 ---
 
