@@ -31,7 +31,7 @@ body {
 .heading {
     font-size: 60px;
     font-weight: 800;
-    color: #2C3E50;
+    color: white;
 }
 .subtext {
     font-size: 20px;
@@ -67,7 +67,7 @@ if not st.session_state.chat_open:
     col1, col2 = st.columns([2, 1])
     with col1:
         st.markdown('<div class="left-col">', unsafe_allow_html=True)
-        st.markdown('<div class="heading">Travel Agent Template Library</div>', unsafe_allow_html=True)
+        st.markdown('<div class="heading">Travel Agent</div>', unsafe_allow_html=True)
         st.markdown('<div class="subtext">Your friendly travel assistant — plan trips, find hotels & explore destinations 🌍</div>', unsafe_allow_html=True)
         if st.button("💬 Let's Chat", key="open_chat"):
             st.session_state.chat_open = True
@@ -85,7 +85,7 @@ else:
     st.markdown("""
         <style>
         [data-testid="stAppViewContainer"] {
-            background: linear-gradient(135deg, #7fa6ff, #5f8dff);
+            background: linear-gradient(135deg, #5f7ce0, #3f63cc);
         }
         </style>
     """, unsafe_allow_html=True)
